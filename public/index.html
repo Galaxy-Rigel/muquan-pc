@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="muquan">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>木泉设计</title>
+    <base href="/"/>
+    <link rel="stylesheet" href="./components/bootstrap/dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="./css/animate.css" />-->
+    <!--<link rel="stylesheet" href="./css/onepage-scroll.css">-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/tool.css">
+    <link rel="stylesheet" href="./css/designAndabout.css">
+    <link rel="stylesheet" href="./css/leftbanner.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+</head>
+<body class="page-index">
+<!--侧边联系栏-->
+<div class="service-left wow bounceInLeft">
+    <ul>
+        <li><a href=""><img src="./image/scroll1-rightqq.png"></a></li>
+        <li><a href=""><img src="./image/scroll1-righttel%20(1).png"></a></li>
+        <li><a href="#"><img src="./image/scroll1-rightgotop.png"></a></li>
+        <li><a href="#"><img src="./image/scroll1-rightgotop.png"></a></li>
+    </ul>
+</div>
+<div class="service-show wow bounceInLeft">
+    <div><a href="#"><img src="./image/scroll1-rightgotop.png"></a></div>
+</div>
+
+<header id="header">
+    <!--导航开始-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a href="#" class="navbar-brand"><img src="./image/muquan-logo.png" alt="logo"></a>-->
+            </div>
+            <a ui-sref="home" id="nav-logo" class="navbar-brand"><img src="./image/muquan-logo.png" alt="logo"></a>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="nav navbar-nav pull-right right">
+                    <li><a class="active" ui-sref="home">首页</a></li>
+                    <li><a ui-sref="service">服务</a></li>
+                    <li><a ui-sref="tool">工具</a></li>
+                    <li><a ui-sref="case">案例</a></li>
+                    <li><a ui-sref="design">干货</a></li>
+                    <li><a ui-sref="about">关于</a></li>
+                    <li><a ui-sref="contact">联系</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--导航结束-->
+
+    <!--背景图片-->
+    <div class="BGImg" ng-hide="hideNav"></div>
+
+    <!--背景文字开始-->
+    <div class="container" id="headerText" ng-hide="hideNav">
+        <div class="text-center">
+            <div>
+                <p class="raleway-heavy-webfont">木泉设计</p>
+                <p class="motto">木欣欣向荣，泉涓涓而始流</p>
+            </div>
+            <a href="#" class="subnav"><img src="./image/scroll1.png" alt="subnav"></a>
+        </div>
+    </div>
+    <!--背景文字结束-->
+
+</header>
+<!--视图页-->
+<div id="viewMain" ui-view="viewMain" class="viewMain"></div>
+
+<footer id="footer" ng-hide="hideNav">
+    <div class="footer-consultImg"></div>
+    <div class="container animated fadeIn">
+        <div class="text-center">
+            <p class="consult"><a href="#">立即咨询</a></p>
+            <p class="tel"><a href="#">400-670-3535</a></p>
+            <p class="desc"><a href="#">我们的产品团队为您量身打造，方向清晰，才能胜人一筹</a></p>
+            <p class="desc"><a href="#">免费针对您的需求,提供价值千元的策划方案</a></p>
+            <p class="email">E-mail：<a href="#">zhangkui@wood-spring.com</a></p>
+            <img src="./image/code.png" alt="二维码">
+            <p class="copyright"><a href="#">版权所属 木泉科技</a></p>
+        </div>
+    </div>
+</footer>
+
+<script src="./components/jquery/dist/jquery.min.js"></script>
+<script src="./components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./components/angular/angular.min.js"></script>
+<script src="./components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="./js/html5shiv.js"></script>
+<script src="./js/respond.js"></script>
+<script src="./js/app.js"></script>
+<!--<script src="./js/jquery.onepage-scroll.min.js"></script>-->
+<script src=./js/wow.min.js></script>
+<script src="./js/wow-init.js"></script>
+<script src="./js/servicejq.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script src="./js/controllers/home.main.ctrl.js"></script>
+<script src="./js/controllers/service.main.ctrl.js"></script>
+<script src="./js/controllers/tool.main.ctrl.js"></script>
+<script src="./js/controllers/design.main.ctrl.js"></script>
+<script src="./js/controllers/designNew.main.ctrl.js"></script>
+<script src="./js/controllers/about.main.ctrl.js"></script>
+<script src="./js/controllers/case.main.ctrl.js"></script>
+<script src="./js/controllers/contact.main.ctrl.js"></script>
+</body>
+</html>

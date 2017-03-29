@@ -1,0 +1,96 @@
+body{
+    font-family: '微软雅黑';
+}
+.tool-font{
+    color:white;
+    margin-top: 40px;
+}
+.tool-font1{
+    margin-top: 140px;
+}
+.tool-font h1{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.tool-font-black{
+    text-align: right;
+    padding-right:5%;
+
+}
+.tool-four .row{
+    margin-top: 130px;
+}
+.tool-four .tool-font-black{
+    padding-right: 0;
+}
+.tool-three .row{
+    margin-top: 90px;
+}
+.tool-two .row{
+    margin-top: 110px;
+}
+.tool-font .tool-product h3{
+    font-weight: bolder;
+    font-size: 22px;
+    line-height:50px;
+}
+.tool-product{
+    margin-top: 8%;
+}
+.tool-product span{
+    font-size: 3.2rem;
+}
+
+@media screen and (max-width:750px) {
+    .tool-font h1{font-size: 3rem;}
+    .tool-product span{font-size: 2rem;}
+    .tool-product h3{font-size: 1.4rem;}
+    .tool-font{margin-left: 10%;}
+    .service-show{width:40px;}
+    .service-show img{margin-left: 5px}
+    .service-left{width:60px}
+    .service-left ul{margin-left:15px;}
+}
+@media screen and (max-height: 650px){
+    .tool-font h1{font-size: 3.5rem;}
+    .tool-product span{font-size: 2.5rem;}
+    .tool-product h3{font-size: 1.5rem;}
+    .tool-font{margin-left: 10%;margin-top:30px;}
+}
+@media screen and (max-width: 400px){
+    .tool-font h1{font-size: 1.9rem;}
+    .tool-product span{font-size: 1.7rem;}
+    .tool-product h3{font-size: 1rem;}
+    .tool-font{margin-left: 10%;margin-top:20px;}
+    .onepage-pagination{display:none}
+}
+/*实验用的*/
+.scrollspy{
+    height:700px;
+    width:100%;
+    -webkit-transition: all 2s;;
+}
+.tool-one{
+    height:100%;
+    background:url('../image/Tools-img-1.png') center no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.tool-two{
+    height:100%;
+    background:url('../image/Tools-img-2.png') center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.tool-three{
+    height:100%;
+    background:url('../image/Tools-img-3.png') center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.tool-four{
+    height:100%;
+    background:url('../image/Tools-img-4.png') center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}

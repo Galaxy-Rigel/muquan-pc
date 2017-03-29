@@ -1,0 +1,177 @@
+html,body{margin:0;padding:0;}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+/*#dituContent{*/
+/*visibility: hidden;*/
+/*}*/
+body{
+    width: 100%;
+    height: 100%;
+}
+#mapcase{
+    width: 100%;height: 100%;
+    visibility: hidden;
+    margin: 0 auto; text-align: center;
+    padding:  80px;
+    background: rgba(0,0,0,0.7);
+}
+#dituContent{
+    margin:0 auto;
+}
+
+
+
+.contactUs-wrap {
+    background: url(../image/contactUs-1.png) no-repeat center 0;
+    width: 100%;
+    height: 661px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.contactUs-wrap .contactUs-text {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 96px;
+}
+.contactUs-wrap .contactUs-text .textinfo-title {
+    padding-bottom: 8%;
+    font-size: 16px;
+}
+.contactUs-wrap .contactUs-text .textinfo-title .p-title {
+    /*font-family:*/
+    font-size: 56px;
+    line-height: 1.2;
+}
+.contactUs-wrap .contactUs-fn16 {
+    font-size: 16px;
+}
+.contactUs-wrap .p-img {
+    background: url(../image/contactUs-2.png) no-repeat center 0;
+    padding-top: 80px;
+}
+.contactUs-wrap .p-img a{
+    text-decoration: none;
+    color: white;
+}
+.contactUs-wrap .p-img a:hover{
+    color: #66afe9;
+    font-weight: bolder;
+}
+.contactUs-wrap .p-img2 a:hover{
+    color: #66afe9;
+    font-weight: bolder;
+}
+.contactUs-wrap .p-img3 a:hover{
+    color: #66afe9;
+    font-weight: bolder;
+}
+.contactUs-wrap .p-img2 {
+    background: url(../image/contactUs-3.png) no-repeat center 5px;
+    padding-top: 80px;
+}
+.contactUs-wrap .p-img2 a{
+    text-decoration: none;
+    color: white;
+}
+.contactUs-wrap .p-img3 {
+    background: url(../image/contactUs-4.png) no-repeat center 5px;
+    padding-top: 80px;
+}
+.contactUs-wrap .p-img3 a{
+    text-decoration: none;
+    color: white;
+}
+.contactUs-wrap .p-tel {
+    color: #56A902;
+    font-size: 36px;
+    padding-top: 10%;
+    letter-spacing: 2.3px;
+}
+.contactUs-wrap .p-tel a {
+    color: #56A902;
+    text-decoration: none;
+}
+.contactUs-wrap .p-mailto {
+    color: #56A902;
+    font-size: 18px;
+}
+.contactUs-wrap .p-mailto a {
+    color: #56A902;
+    text-decoration: none;
+}
+.contactUs-wrap .p-mailto a:hover {
+    color: #fff;
+}
+.contactUs-inlinblock{
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+    .contactUs-wrap {
+        background: url(../image/contactUs-1.png) no-repeat center 0;
+        background-size: auto 100%;
+        background-attachment: scroll;
+
+    }
+    .contactUs-wrap .contactUs-text .textinfo-title {
+        padding-bottom: 8%;
+        font-size: 12px;
+    }
+    .contactUs-wrap .contactUs-text .textinfo-title .p-title {
+
+        /*font-family:*/
+        font-size: 38px;
+        line-height: 1.2;
+    }
+    .contactUs-inlinblock{
+        display: inline-block;
+    }
+    .contactUs-center{
+        text-align: center;
+    }
+    .contactUs-wrap .p-img {
+        background: url(../image/contactUs-2.png) no-repeat 10px 15%;
+        background-size: 22px auto;
+        height: auto;
+        text-align: left;
+        padding-left: 45px;
+        padding-top: 0;
+        font-size: 13px;
+
+    }
+    .contactUs-wrap .p-img2 {
+        background: url(../image/contactUs-3.png) no-repeat 0 15%;
+        height: auto;
+        text-align: left;
+        margin-top: 5%;
+        ont-size: 13px;
+        background-size: 34px auto;
+        padding-left: 50px;
+        padding-top: 0;
+
+    }
+    .contactUs-wrap .p-img3 {
+        background: url(../image/contactUs-4.png) no-repeat 0 15%;
+        height: auto;
+        text-align: left;
+        margin-top: 5%;
+
+        padding-top: 0;
+        font-size: 13px;
+        padding-left: 50px;
+        background-size: 32px auto;
+    }
+    .contactUs-wrap .p-tel {
+        font-size: 20px;
+        padding-top: 7%;
+    }
+    .contactUs-wrap .p-mailto {
+        font-size: 14px;
+    }
+}

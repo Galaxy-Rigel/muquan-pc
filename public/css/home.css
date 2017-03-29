@@ -1,0 +1,180 @@
+.container .product-web {
+  background-color: #1bbc9b;
+}
+.container .product-web .text-center {
+  margin: 90px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.container .product-web .text-center p:first-child {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 3%;
+}
+.container .product-web .text-center .raleway-heavy-webfont {
+  font-family: raleway;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 8%;
+}
+.container .product-web .text-center img {
+  width: 60%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@media (max-width: 850px) {
+  .container .product-web .text-center {
+    margin: 90px;
+  }
+  .container .product-web .text-center p:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 3%;
+  }
+  .container .product-web .text-center .raleway-heavy-webfont {
+    font-family: raleway;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 8%;
+  }
+  .container .product-web .text-center img {
+    width: 90%;
+  }
+}
+.container .product-mobile {
+  background-color: #FF7F50;
+}
+.container .product-mobile .text-center {
+  margin: 90px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.container .product-mobile .text-center p:first-child {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 3%;
+}
+.container .product-mobile .text-center .raleway-heavy-webfont {
+  font-family: raleway;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 8%;
+}
+.container .product-mobile .text-center img {
+  width: 360px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@media (max-width: 768px) {
+  .container .product-mobile .text-center {
+    margin: 90px;
+  }
+  .container .product-mobile .text-center p:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 3%;
+  }
+  .container .product-mobile .text-center .raleway-heavy-webfont {
+    font-family: raleway;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 8%;
+  }
+  .container .product-mobile .text-center img {
+    width: 300px;
+  }
+}
+.container .product-company {
+  background-color: #4BBFC3;
+}
+.container .product-company .text-center {
+  margin: 100px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.container .product-company .text-center p:first-child {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 3%;
+}
+.container .product-company .text-center .raleway-heavy-webfont {
+  font-family: raleway;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 15%;
+}
+.container .product-company .text-center img {
+  width: 80%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@media (max-width: 850px) {
+  .container .product-company .text-center {
+    margin: 90px;
+  }
+  .container .product-company .text-center p:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 3%;
+  }
+  .container .product-company .text-center .raleway-heavy-webfont {
+    font-family: raleway;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 8%;
+  }
+  .container .product-company .text-center img {
+    width: 90%;
+  }
+}
+.container .product-marketing {
+  background-color: #f90;
+}
+.container .product-marketing .text-center {
+  margin: 80px;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.container .product-marketing .text-center p:first-child {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-bottom: 3%;
+}
+.container .product-marketing .text-center .raleway-heavy-webfont {
+  font-family: raleway;
+  color: #000;
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+.container .product-marketing .text-center img {
+  width: 18%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@media (max-width: 850px) {
+  .container .product-marketing .text-center {
+    margin: 90px;
+  }
+  .container .product-marketing .text-center p:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 3%;
+  }
+  .container .product-marketing .text-center .raleway-heavy-webfont {
+    font-family: raleway;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 8%;
+  }
+  .container .product-marketing .text-center img {
+    width: 30%;
+  }
+}
